@@ -89,7 +89,7 @@ You need to run two components separately: the FastAPI server and the Gradio UI.
     * Type messages into the input box in the Gradio UI and press Enter or click "Send".
     * The UI will send the message to the FastAPI server, which will process it using the configured LLM and stream the response back.
 
-## Switching LLM Providers (currently tested on Google API)
+## Switching LLM Providers (currently tested on Google Gemini API only)
 
 1.  **Stop** both the FastAPI server (Ctrl+C in its terminal) and the Gradio UI (Ctrl+C in its terminal).
 2.  **Edit** the `.env` file and change the `LLM_PROVIDER` variable to the desired provider (`"GEMINI"`, `"OPENAI"`, or `"ANTHROPIC"`).
