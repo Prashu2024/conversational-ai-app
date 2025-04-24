@@ -1,7 +1,7 @@
 import logging
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import StreamingResponse
-from fastapi.middleware.cors import CORSMiddleware # To allow requests from Gradio UI
+from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 from contextlib import asynccontextmanager
 from typing import List, Dict

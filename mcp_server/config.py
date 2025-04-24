@@ -56,6 +56,3 @@ class Settings:
 
 # Create a single instance of settings to be imported elsewhere
 settings = Settings()
-
-# You could add functions here to dynamically update settings if needed via an API endpoint,
-# but for simplicity, we rely on environment variables at startup.
